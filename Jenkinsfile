@@ -7,7 +7,7 @@ pipeline {
         stage('Build'){
             
             agent {
-                label "myslavemaven1"
+                label "kubepod"
             }
           
           steps {
